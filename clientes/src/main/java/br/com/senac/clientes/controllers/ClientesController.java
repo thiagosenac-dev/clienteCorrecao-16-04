@@ -61,8 +61,4 @@ public class ClientesController {
         }
         return ResponseEntity.badRequest().body(null);
     }
-
-
-
-
 }
