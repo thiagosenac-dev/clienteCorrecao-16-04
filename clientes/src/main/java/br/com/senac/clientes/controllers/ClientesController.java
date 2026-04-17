@@ -54,6 +54,7 @@ public class ClientesController {
         }
     }
 
+
     @DeleteMapping("/deletar/{id}")
     public  ResponseEntity<Void> deletar (@PathVariable Long id){
         try{
@@ -68,5 +69,6 @@ public class ClientesController {
                     .internalServerError()
                     .body(null);
         }
+
     }
 }
